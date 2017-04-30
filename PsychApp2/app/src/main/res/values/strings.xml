@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PsychApp</string>
+    <string-array name="reasons">
+        <item>(Select Option)</item>
+        <item>Medication Refill</item>
+        <item>New Patient</item>
+        <item>Existing Patient</item>
+    </string-array>
+</resources>
