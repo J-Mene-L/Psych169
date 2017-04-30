@@ -47,21 +47,21 @@ public class MainActivity extends AppCompatActivity {
         String pt = patientType.getSelectedItem().toString();
         String pn = null;
         String rname = null;
-        Integer min = null;
-        Integer mo = null;
+        String min = null;
+        String mo = null;
         String rfv = null;
-        Integer day = null;
-        Integer hr = null;
-        Integer yr = null;
+        String day = null;
+        String hr = null;
+        String yr = null;
         try {
             rname = Name.getText().toString();
             pn = PhoneNumber.getText().toString();
             rfv = ReasonForVisit.getText().toString();
-            mo = Integer.parseInt(Month.getText().toString());
-            day = Integer.parseInt(Day.getText().toString());
-            yr = Integer.parseInt(Year.getText().toString());
-            hr = Integer.parseInt(Hours.getText().toString());
-            min = Integer.parseInt(Minutes.getText().toString());
+            mo = Month.getText().toString();
+            day = Day.getText().toString();
+            yr = Year.getText().toString();
+            hr = Hours.getText().toString();
+            min = Minutes.getText().toString();
         } catch (NumberFormatException a) {
             Toast ERROR = Toast.makeText(getApplicationContext(), "Invalid Entries", Toast.LENGTH_SHORT);
             ERROR.show();
