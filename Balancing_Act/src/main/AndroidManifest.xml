@@ -3,7 +3,7 @@
 	package="ioio.examples.Balance" android:versionCode="1"
 	android:versionName="1.0">
 	<uses-sdk android:minSdkVersion="3" android:targetSdkVersion="10" />
-	<application android:icon="@drawable/icon" android:label="Balancing Act">
+	<application android:icon="@mipmap/dwarf" android:label="Balancing Act">
 		<uses-library android:name="com.android.future.usb.accessory"
 			android:required="false" />
 
