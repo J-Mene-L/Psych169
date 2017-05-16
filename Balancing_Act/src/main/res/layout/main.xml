@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:padding="8dp">
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Left Sensor"
+		/>
+	<TextView
+		android:id="@+id/left"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="0"
+		android:textSize="30sp"
+		android:textColor="#2962ff"
+		/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Right Sensor"
+		/>
+	<TextView
+		android:id="@+id/right"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="0"
+		android:textSize="30sp"
+		android:textColor="#d50000"
+		/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Sensor Difference"
+		/>
+	<TextView
+		android:id="@+id/difference"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="0"
+		android:textColor="#aa00ff"
+		android:textSize="30sp"
+		/>
+	<TextView
+		android:layout_marginTop="30sp"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Servo Position"
+		/>
+	<TextView
+		android:id="@+id/position"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="1500"
+		android:textSize="30sp"
+		android:textColor="#00e676"
+		/>
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Degrees of Tilt"
+		/>
+	<TextView
+		android:id="@+id/degrees"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="0"
+		android:textSize="30sp"
+		android:textColor="#00e676"
+		/>
+</LinearLayout>
